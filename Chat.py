@@ -115,7 +115,7 @@ while True:
         append_to_history([user_content])
 
         chat = client.chats.create(
-                model="model",
+                model="gemma-4-31b-it",
                 history=my_history # type: ignore
             )
         
